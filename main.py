@@ -16,7 +16,7 @@ def checking_eigenvectors(matrix, eigenvalues, eigenvectors):
         print(f"Власний вектор v = {eigenvector}")
         print(f"A⋅v = {A_v}")
         print(f"λ⋅v = {λ_v}")
-        
+
         if np.allclose(A_v, λ_v):
             print(f"Рівність A⋅v = λ⋅v виконується для λ = {eigenvalue}\n")
         else:
